@@ -317,8 +317,8 @@ app.get('/hello-world',(req,res)=>{
     res.send("Hello world4");
 })
 
-
-app.listen(3000,()=>{
+const PORT = process.env.PORT || 8000
+app.listen(PORT,()=>{
     console.log('listening on port 3000');
 })
 
