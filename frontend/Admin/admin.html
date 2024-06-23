@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(''); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(50, 48, 48);
+        }
+
+        nav {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .club-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background: linear-gradient(rgba(144, 134, 134, 0.8), rgba(255, 252, 252, 0.8)), url('./images/Backgrounds.jpg.jpg') center/cover fixed;
+        }
+
+        .club {
+            width: 30%;
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .club img {
+            width: 100%;
+            height: 200px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .club-content {
+            padding: 10px;
+        }
+
+        .club h2 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .club p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Admin-Page</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./Necessary/">Faculty</a>
+        <a href="./Necessary/aboutus.html">About-Us</a>
+        <a href="./Necessary/CSE.html">CSE</a>
+        <a href="./Necessary/Contact.html">Contact-Us</a>
+    </nav>
+
+    <div class="club-container">
+        <section id="club1" class="club">
+           <a href="./Clubs/CodingClub/codingClub.html"><img src="./logos/codingClub-logo.png" alt="Club 1"></a>
+            <div class="club-content">
+                <h2>Incharge Of Club</h2>
+                <p>Er. Prashant Maharishi</p>
+            </div>
+        </section>
+
+        <section id="club2" class="club">
+           <a href="./Clubs/RoboticsClub/roboticsClub.html"><img src="./logos/RoboticsClub-logo.png" alt="Club 2"></a>
+            <div class="club-content">
+                <h2>Incharge Of Club</h2>
+                <p>Dr. D.Shakina Deiv</p>
+            </div>
+        </section>
+
+        <section id="club3" class="club">
+           <a href="./Clubs/AIIoTClub/aiiotClub.html"><img src="./logos/AI-IOTClub-logo.png" alt="Club 2"></a>
+            <div class="club-content">
+                <h2>Incharge Of Club</h2>
+                <p>Er. Ankita Maheshwari</p>
+            </div>
+        </section>
+
+        <section id="club4" class="club">
+            <a href="./Clubs/GateClub/gateClub.html"><img src="./logos/GateClub-logo.jpeg" alt="Club 2"></a>
+            <div class="club-content">
+                <h2>Incharge Of Club</h2>
+                <p>Er. Nagendra Singh</p>
+            </div>
+        </section>
+
+        <section id="club2" class="club">
+          <a href="./Clubs/SportsClub/sportsClub.html"><img src="./logos/SportsClub-logo.png" alt="Club 2"></a>
+            <div class="club-content">
+                <h2>Incharge Of Club</h2>
+                <p>Er. Ashish Sharma</p>
+            </div>
+        </section>
+
+        <section id="club2" class="club">
+          <a href="../AllEvents/Activity.html"><img src="./logos/user-data.png" alt="Club 2"></a>
+            <div class="club-content">
+                <h2>Users Data</h2>
+                <p></p>
+            </div>
+        </section>
+
+        <!-- Add more club sections as needed -->
+
+    </div>
+
+</body>
+</html>
+
+

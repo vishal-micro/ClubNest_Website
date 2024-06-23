@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Success Page</title>
+</head>
+<body style="background-image: url('success_background.jpg');">
+    <div class="success-form-container">
+        <form>
+            <h2>Hey, <span id="joinedName"></span>! You've successfully registered.</h2>
+            <p>Thank you for joining our club. We're excited to have you on board!</p>
+            <p>Here are your registration details:</p>
+            
+            <!-- Display user details here if needed -->
+            
+            <button type="button" onclick="window.location.href='index.html'">Go Back Home</button>
+        </form>
+    </div>
+
+    <script>
+        // Retrieve the name from sessionStorage and display it
+        const joinedName = sessionStorage.getItem('joinedName');
+        document.getElementById('joinedName').textContent = joinedName;
+    </script>
+</body>
+</html>

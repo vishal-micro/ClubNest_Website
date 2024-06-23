@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/join.css">
+    <title>Join Now</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="./roboticsClub.html">Home</a></li>
+                <li><a href="../../Necessary/aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="join-now-container">
+        <header>
+            <h1>Join Now</h1>
+        </header>
+
+        <form id="joinForm" action="./sd.html" method="GET" onsubmit="return showSuccessMessage()">
+            <label for="name">Name Of Student</label>
+            <input type="text" id="Name Of Student" placeholder="Name Of Student" name="name" required>
+
+            <label for="department">Department</label>
+            <input type="text" placeholder="Department-Name" name="department" required>
+
+            <label for="rollNumber">College Roll Number</label>
+            <input type="text" placeholder="Roll-Number" name="rollNumber" required>
+
+            <label for="year">Year</label>
+            <input type="text" placeholder="Year" name="Year" required>
+
+            <label for="email">E-mail ID</label>
+            <input type="email" placeholder="E-mail-Address" name="email">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function showSuccessMessage() {
+            const name = document.getElementById('Name Of Student').value;
+            sessionStorage.setItem('joinedName', name);
+            return true;
+        }
+    </script>
+</body>
+</html>

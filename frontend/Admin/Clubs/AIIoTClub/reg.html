@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reg.css">
+    <title>Registration-Form</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./aiiotClub.html">AI/IoT-Club</a></li>
+                <li><a href="./Events.html">Events</a></li>
+                <li><a href="../../Necessary/aboutus.html">About-Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <form action="http://localhost:3000/aiiot-club" method="post" enctype="multipart/form-data">
+            <h1>Event Registration</h1>
+
+            <label for="eventName">Event Name</label>
+            <input type="text"placeholder="Name of Events" name="name_of_events">
+
+            <label for="hostDepartment">Host Department</label>
+            <input type="text" placeholder="Name of Host Department" name="name_of_host_department">
+
+            <label for="venue">Venue</label>
+            <input type="text" placeholder="Venue" name="Venue">
+
+            <label for="participants">Number of Students Participated</label>
+            <input type="number" placeholder="Number of student participared" name="no_of_student_of_participated_in_event">
+
+            <label for="eventDate">Date of Event</label>
+            <input type="date" placeholder="Date of Event Start" name="Date_of_event_start">
+
+            <label for="priceCertification">Price/Certification</label>
+            <input type="text" placeholder="Price/Certification" name="price/Certification">
+
+            <label for="speaker">Speaker</label>
+            <input type="text" placeholder="Speaker" name="Speaker">
+
+            <label for="objective">Objective</label>
+            <textarea id="objective" placeholder="Objective" name="Objective"></textarea>
+
+            <label for="uploadImage">Upload Image</label>
+            <input type="file" placeholder="Upload Image" name="Upload_image">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

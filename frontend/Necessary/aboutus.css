@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(140, 123, 123, 0.1);
+}
+
+header {
+    background-color: #0e4640;
+    color: rgb(92, 227, 177);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+nav {
+    float: centre;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1 {
+    color: rgb(0, 255, 162);
+}
+
+p1 {
+    line-height: 2.5;
+}
+
+ h2 {
+    color: #0e4640;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#main-content {
+    margin-top: 20px;
+}
+
+.about-section,
+.faculty-section {
+    margin-bottom: 20px;
+}
+
+.faculty-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.faculty-card img {
+    width: 100%;
+    height: auto;
+}
+
+.faculty-card p {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    width: 100%;
+    bottom: 0;
+}

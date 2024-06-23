@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Gate Club</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			<div>
+				<div class="logo">
+					<a href="index.html"></a>
+				</div>
+				<ul id="navigation">
+					<li>
+						<a href="gateClub.html">Home</a>
+					</li>
+					<li>
+						
+						<a href="Participate.html">Participate Student</a>
+					</li>
+					<li>
+						<a href="Volunteer.html">Volunteer</a>
+					</li>
+					<li>
+						<li class="active">
+						<a href="gateClubDataForm.html">Form</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    <div style="background-image: url(images/img.jpg);">
+		<form action="http://localhost:3000/gate-club" method="post" enctype="multipart/form-data" >
+		<h1>Data form</h1>
+		<label for="name"> Enter Name of Events:</label>
+		<input type="text" placeholder="Enter name of Events" name="name_of_events" required>
+
+		<label for="name"> Name of Host Institute:</label>
+		<input type="text" placeholder="Name of Host Institute" name="name_of_host_institute" required>
+
+		<label for="name"> Number of Students:</label>
+		<input type="text" placeholder="Number of student " name="no_of_student_of_participated_in_event" required>
+
+		<label for="Date"> Date of Event Start:</label>
+		<input type="date" placeholder="Date of Event Start" name="Date_of_event_start" required>
+
+		<label for="Date"> Date of Event End:</label>
+		<input type="date" placeholder="Date of Event End" name="Date_of_event_end" required>
+
+		<label for="name"> Details of Price Won:</label>
+		<input type="text" placeholder="Details_of_prizes_won" name="Details_of_prizes_won" required>
+
+		<label for="name"> Venue:</label>
+		<input type="text" placeholder="Venue" name="Venue" required>
+
+		<label for="name"> Speaker:</label>
+		<input type="text" placeholder="Speaker" name="Speaker" required>
+
+		<label for="name"> Objective:</label>
+		<input type="text" placeholder="Objective" name="Objective" required>
+
+		<label for="name"> dispImage:</label>
+		<input type="file" placeholder="Please upload your Gate club image" name="dispImage">
+
+		<input type="submit" value="Submit">
+	</form>
+
+	</div> 
+   </body>
+</html>
